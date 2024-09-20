@@ -1,0 +1,531 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.TopNav,
+.NavLinks {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+  padding-block: 11px;
+  color: white;
+  gap: 11px;
+  padding-inline: 2%;
+}
+
+.SearchBox {
+  width: 41%;
+  margin-inline: 1%;
+}
+
+.SearchBox input {
+  background: whitesmoke;
+  border-radius: 25px;
+  color: black;
+  font-family: "Poppins";
+  position: relative;
+}
+
+.SearchBox input::placeholder {
+  font-family: "Poppins";
+}
+
+.Navbar a {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  padding: 11px;
+  border-radius: 21px;
+  font-family: "Poppins";
+}
+
+.TopNav > a:hover {
+  background: rgb(65, 64, 64);
+}
+
+.Navbar b {
+  margin-inline-end: 5px;
+}
+
+.FlexLink {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+}
+
+.TopNav span > b {
+  display: block;
+  font-size: 17px;
+}
+
+.FlexLink > b {
+  font-size: 17px;
+}
+
+#RightElement {
+  background: orange;
+  border-radius: 50%;
+  height: max-content;
+  width: max-content;
+  padding: 7px;
+  position: absolute;
+  bottom: 50%;
+  top: 50%;
+  transform: translate(-20%, -50%);
+}
+
+.CartLink > b {
+  font-size: 30px;
+  position: relative;
+}
+
+.CartLink > b > p {
+  position: absolute;
+  top: 10%;
+  right: -10%;
+  font-size: 8px;
+  background: orange;
+  border-radius: 50%;
+  padding: 1px 5px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.CartLink > b > b {
+  position: absolute;
+  font-size: 9px;
+  bottom: -15%;
+  left: 0;
+  width: max-content;
+}
+
+.NavLinks img {
+  width: 11%;
+  margin-inline-end: 11px;
+}
+
+.NavLinks {
+  border-top: 1px solid white;
+  font-size: 12px;
+  font-weight: 600;
+  padding-block: 0;
+}
+
+.NavLinks a:hover {
+  text-decoration: underline;
+}
+
+.HomePageBody {
+  padding-inline: 2%;
+  margin: auto;
+  margin-top: 1%;
+}
+
+.HomePageBody img {
+  border-radius: 11px;
+}
+
+.HomePageBody > div:first-child img {
+  width: 385px;
+}
+
+.HomePageBody a {
+  position: relative;
+  font-family: "Poppins";
+}
+
+.HomePageBody a > div {
+  font-weight: 500;
+  position: absolute;
+  top: 35px;
+  width: 211px;
+  font-size: 25px;
+  margin-left: 5%;
+}
+
+.HomePageBody a > div p:last-child {
+  width: max-content;
+  font-weight: normal;
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+.HomePageBody a > div p:hover {
+  text-decoration: none;
+}
+
+.HomeBelowBody {
+  margin-block: 1%;
+  background: lightcyan;
+  text-align: center;
+  padding-block: 3%;
+  font-family: "Poppins", sans-serif;
+}
+
+.HomeBelowBody > button {
+  font-size: 35px;
+  padding: 31px 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 35px;
+}
+
+.HomeBelowBody > p {
+  margin-block-start: 11px;
+}
+
+.HomeBelowBody > p:nth-child(2),
+.HomeBelowBody > p:nth-child(3) {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.HomeBelowBody > p:nth-child(2) {
+  font-size: 41px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.HomeBelowBody span {
+  margin-inline: 11px;
+  border: 2px solid black;
+  padding: 3px 11px;
+}
+
+.HomeBelowBody > p:nth-child(4) {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.MailTo {
+  background: lightyellow;
+  padding-block: 2%;
+  margin-block: 1%;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.MailTo > button {
+  border: 2px solid black;
+  border-radius: 21px;
+  margin-top: 11px;
+}
+
+.Footer {
+  background: hwb(223 3% 16%);
+  color: white;
+  padding-block: 1%;
+}
+
+.Footer ul {
+  list-style: none;
+  display: flex;
+  width: 75%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+li {
+  font-size: 12px;
+  font-family: "Poppins";
+  margin-inline: 11px;
+}
+
+li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Footer > p {
+  text-align: center;
+  margin-block-start: 21px;
+  font-family: "Poppins";
+}
+
+.ShopFlexBox {
+  position: relative;
+  margin: auto;
+  width: 75%;
+  margin-top: 1%;
+}
+
+.ShopFlexBox > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.ShopFlexBox > div > p:first-child {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.ShopFlexBox > div > a {
+  text-decoration: underline;
+}
+
+.ShopFlexBox > div > a:hover {
+  text-decoration: none;
+}
+
+.ProdContainer {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  margin-top: 1%;
+  gap: 1%;
+  justify-content: space-around;
+}
+
+.ShoppingBodyRight {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 11px;
+  width: 75%;
+}
+
+.GridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  justify-content: center;
+  gap: 11px;
+}
+
+.ShoppingBodyRight img {
+  width: 100%;
+  height: 151px;
+  margin: auto;
+}
+
+.prodTitle {
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  bottom: -10%;
+  left: 3%;
+  padding: 2% 5%;
+  background: linear-gradient(blue, silver);
+  color: white;
+  font-family: "Poppins";
+  font-size: 11px;
+  text-transform: capitalize;
+  border-radius: 7px;
+}
+
+.ShopBodyLeft > div > * {
+  padding-block: 3%;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(228, 227, 227);
+}
+
+.ShopBodyLeft select {
+  width: 100%;
+  padding-inline: 1%;
+}
+
+.Shopping .Footer {
+  margin-top: 25px;
+}
+
+.ProductCard {
+  cursor: pointer;
+}
+
+.ProductDetails {
+  position: relative;
+  background: url("https://images.unsplash.com/photo-1558546436-ba420d6a2f2f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTl8fHxlbnwwfHx8fHw%3D");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
+}
+
+.SingleProductCard {
+  position: absolute;
+  width: max-content;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-155%, -50%);
+  border: 5px solid whitesmoke;
+}
+
+.SingleProductCard img {
+  width: 100%;
+  height: 211px;
+}
+
+.goBack {
+  position: absolute;
+  font-family: "Poppins";
+  font-weight: bolder;
+  margin: 0;
+  font-size: 35px;
+  padding: 3px 21px;
+  margin-top: 21px;
+  box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.11);
+  border-top-left-radius: 21px;
+  border-bottom-right-radius: 21px;
+  right: 5%;
+  color: red;
+  background: lightcyan;
+}
+
+.goBack:hover {
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 21px;
+  border-bottom-left-radius: 21px;
+  background: lightcyan;
+  color: navy;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.SuccessErrorToast {
+  position: absolute;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -50%);
+}
+
+.SuccessErrorToast button {
+  font-size: 21px;
+}
+
+.loading {
+  font-size: 25px;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.Pagination {
+  display: flex;
+  margin: auto;
+  width: max-content;
+  gap: 11px;
+  margin-top: 21px;
+  font-family: "Poppins";
+}
+
+.FlexTable {
+  margin: auto;
+  width: 80%;
+  justify-content: space-around;
+  gap: 11px;
+}
+
+.CheckOutDetails {
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  font-family: "Poppins";
+  height: max-content;
+}
+
+.WishlistPara {
+  font-size: 21px;
+  width: 75%;
+  margin: auto;
+  margin-block: 1%;
+}
+
+.Login {
+  height: 100vh;
+  position: relative;
+}
+
+.Tabs {
+  position: absolute;
+  width: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 11px;
+  padding: 2%;
+}
+
+.Tabs input {
+  margin-bottom: 21px;
+}
+
+.LoginBottom {
+  position: absolute;
+  bottom: 0;
+  background: whitesmoke;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  font-size: 21px;
+}
+
+.CheckOut {
+  height: 100vh;
+  position: relative;
+  background: url("https://th.bing.com/th/id/OIP.I7NIu5paDuelTdn6cYT0zgHaEo");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: "Poppins";
+}
+
+.CheckOutTabs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 35%;
+  box-shadow: rgba(240, 235, 235, 0.11) 0px 1px 3px 0px,
+    rgba(241, 241, 242, 0.25) 0px 0px 0px 1px;
+  border-radius: 11px;
+  padding: 2%;
+}
+
+.CheckOut input {
+  margin-bottom: 11px;
+}
+
+.CheckOut input::placeholder {
+  color: white;
+}
+
+.Orders {
+  background: snow;
+  height: 100vh;
+}
+
+.Wishlist,
+.Bag {
+  min-height: 100vh;
+  position: relative;
+}
+
+.WalmartDiv {
+  position: absolute;
+  font-family: "Poppins";
+  padding-block: 0.5%;
+  text-align: center;
+  margin-top: 1%;
+  background: whitesmoke;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid white;
+}
+
+.CartLogo {
+  width: 35%;
+  margin: auto;
+}
