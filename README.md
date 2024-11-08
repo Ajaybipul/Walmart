@@ -3,7 +3,7 @@
 **Description:**
 This project is a fully responsive e-commerce frontend interface inspired by Walmart. It allows users to browse products, manage their shopping carts, and authenticate securely via an API-based authentication system. Users can explore the platform without logging in, but actions such as adding products to the cart or viewing the wishlist require authentication. The app leverages Redux Toolkit for state management, Chakra UI for a sleek design, and ensures seamless functionality across all devices. LocalStorage is used to persist cart data between sessions.
 
-**[Netlify Deployment: Live Demo](https://benevolent-otter-8338e7.netlify.app/)**
+**[Netlify Deployment: Live Demo]([https://benevolent-otter-8338e7.netlify.app/](https://relaxed-gumption-d49db8.netlify.app/)**
 
 **Tech Stack:**
 - **React.js:** Offers a modular, component-driven UI architecture.
